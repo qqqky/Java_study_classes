@@ -6,7 +6,7 @@ Some simple Java programs. Study material
 
 • Almost all of the programs (except SHA-1 hashing implementation), were made as solutions to exercises.
 
-• Most of the programs are written in very basic Java, avoiding most of the Java Collections library and its methods.
+**• Nearly all of the programs are written in very basic Java, avoiding most of the Java Collections library and its methods.**
 	
 ### Unoptimized or deprecated practice:
   
@@ -44,13 +44,13 @@ of pure interest on the subject while reading documentation. Implementation work
 
 ### Here is a list of my personal favorites:
 
-Swing:		  
+**• Swing:**		  
 
-BrickWallPattern, Checkerboard, PolygonBouncyCar, QuadraticFormula, HanoiTowersVisualized + all the ones with fractals (KachSnowflakeCCurve and SierpinskiTriangle).
+**BrickWallPattern, Checkerboard, PolygonBouncyCar, QuadraticFormula, HanoiTowersVisualized + all the ones with fractals (KachSnowflakeCCurve and SierpinskiTriangle).**
             
-Non-swing:	
+**• Non-swing:**
 
-CardDealer, CityRoutes, NonAttackingQueens, BinaryTree, HashingSHA1.
+**CardDealer, CityRoutes, NonAttackingQueens, BinaryTree, HashingSHA1.**
 
 
 
