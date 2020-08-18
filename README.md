@@ -26,7 +26,7 @@ Some simple Java programs. Study material
 
 Looking back at most of the first projects, there is often a lot of unnecessary code, but all programs do work.
 
-*\*Additionally, There are a lot of self-notes and a lot of undeleted 'printlns'. I decided to keep them, maybe someone who just starts with Java will find
+\*Additionally, There are a lot of self-notes and a lot of undeleted 'printlns'. I decided to keep them, maybe someone who just starts with Java will find
 them helpful. Some classes may still have theory notes left.
 
 I also tried to include a full description of the exercise where due.
