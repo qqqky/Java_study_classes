@@ -63,33 +63,7 @@ public void paintComponent(Graphics g)
 		{
 			g.setColor(Color.BLACK);
 			g.drawRect(startX+(80*x), startY+(40*y), 80, 40);		//1 brick (outline)
-			//g.setColor(Color.RED);											//0x90= 144 in decimal!!!
-			g.setColor(new Color((int)(Math.random()*colorList[0][colorCounter]+colorList[1][colorCounter])));		//0x90 sets very dark random blue colors
-			//System.out.println((()Color.red));				
-															
-			//other nice colors:
-			//0x90+255*65525 (or *144+16708000) - nice shades of yellow
-			//0x40+255*31372 (or *64 + 8000000) gives nice random brick colors
-			//0x40+255*36237 (or *64 + 9240576) random dark red
-			//0x40+255*128	 (or *64 +   32800) random dark green
-			//0x40+255*7074	 (or *64 + 1804032) dirtier dark green
-			//0x40+255*32897 (or *64 + 8388738) random light purple
-			//						 + 8454259)
-			//						 + 5505081) random blue-ish dark purple
-			//					 *64 + 4000000) extremely dark purple shades
-			//0x40+255*38406 (or *64 + 9793536) dirty gray-ish gold
-			//					 *40 +15067096) this EXACT value gives white wall color in max possible range (still pretty much just white)
-			//					 *20 +10000000) gray shades
-			//					 *64 +11000000) light-light-blue shades
-			//		 			 *64 +14421350) darker pink shades (instead of *64 can set max at *154)	
-			//			 *64 +14000000) lighest pink shades
-			//					 *64 +14421440) light purple shades
-			
-			
-			//int random = (int)(Math.random()*64 +14421440);
-			//g.setColor(new Color ((int)random));
-			//System.out.println(random);
-			
+			g.setColor(new Color((int)(Math.random()*colorList[0][colorCounter]+colorList[1][colorCounter])));		
 			g.fillRect((startX+2)+(80*x), (startY+2)+(40*y), 78, 38);		//inside of every brick is colored for fun
 		}
 		
