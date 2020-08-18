@@ -15,17 +15,19 @@ Some simple Java programs. Study material
   
 • All painting was done using the old Graphics class.
 
-• Comments in the code do not adhere to Javadoc standards.
+• Comments in the code do not adhere to Javadoc standards (Edit: now added in some cases)*
 
 • There are (almost) no null checks/safety wheels like exception handling - most classes assume the provided input (where needed) is correct.
 
 • There is excessive use and manipulations of class variables, which could and should be avoided in most cases.
 
+• hashCode(), equals() or, in most cases, toString() methods are not overriden.
+
 
 Looking back at most of the first projects, there is often a lot of unnecessary code, but all programs do work.
 
-There are a lot of self-notes and a lot of undeleted 'printlns'. I decided to keep them, maybe someone who just starts with Java will find 
-them helpful. Some classes may still have theory notes left.
+\**Additionally, There are a lot of self-notes and a lot of undeleted 'printlns'. I decided to keep them, maybe someone who just starts with Java will find *
+*them helpful. Some classes may still have theory notes left.*
 
 I also tried to include a full description of the exercise where due.
 Almost all of the tasks are from book "Java Software Solutions: Foundations of Program Design". There are a few places where
@@ -46,11 +48,11 @@ of pure interest on the subject while reading documentation. Implementation work
 
 **• Swing:**		  
 
-**BrickWallPattern, Checkerboard, PolygonBouncyCar, QuadraticFormula, HanoiTowersVisualized + all the ones with fractals (KachSnowflakeCCurve and SierpinskiTriangle).**
+**BrickWallPattern, Checkerboard, PolygonCar, QuadraticFormula, HanoiTowersVisualization + the ones with fractals (KachSnowflakeCCurve and SierpinskiTriangle).**
             
 **• Non-swing:**
 
-**CardDealer, CityRoutes, NonAttackingQueens, BinaryTree, HashingSHA1.**
+**CardDealer, CityRoutes, NonAttackingQueens, FullBinaryTree, HashingSHA1.**
 
 _______________________________________________________________________________________________________________________________________
 
