@@ -21,7 +21,7 @@ Some simple Java programs. Study material
 
 • There is excessive use and manipulations of class variables, which could and should be avoided in most cases.
 
-• hashCode(), equals() or, in most cases, toString() methods are not overriden.
+• hashCode(), equals() or, in some cases, toString() methods are not overriden.
 
 
 Looking back at most of the first projects, there is often a lot of unnecessary code, but all programs do work.
