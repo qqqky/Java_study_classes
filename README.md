@@ -21,7 +21,7 @@ Some simple Java programs. Study material
 
 • There is excessive use and manipulations of class variables, which could and should be avoided in most cases.
 
-• hashCode(), equals() or, in some cases, toString() methods are not overriden.
+• hashCode(), equals() or, in some cases, toString() methods are not overridden.
 
 
 Looking back at most of the first projects, there is often a lot of unnecessary code, but all programs do work.
@@ -48,11 +48,11 @@ of pure interest on the subject while reading documentation. Implementation work
 
 **• Swing:**		  
 
-**BrickWallPattern, Checkerboard, PolygonCar, QuadraticFormula, HanoiTowersVisualization + the ones with fractals (KachSnowflakeCCurve and SierpinskiTriangle).**
+**BrickWallEnhanced, HanoiTowersVisualization, Checkerboard, QuadraticFormula, PolygonCar + the ones with fractals (KachSnowflakeCCurve and SierpinskiTriangle).**
             
 **• Non-swing:**
 
-**CardDealer, CityRoutes, NonAttackingQueens, FullBinaryTree, HashingSHA1.**
+**HashingSHA1, FullBinaryTree, NonAttackingQueens, CityRoutes, CardDealer.**
 
 _______________________________________________________________________________________________________________________________________
 
