@@ -52,6 +52,8 @@ of pure interest on the subject while reading documentation. Implementation work
 
 **CardDealer, CityRoutes, NonAttackingQueens, BinaryTree, HashingSHA1.**
 
+<
 
+<
 
-License extends to this whole repository.
+< License extends to this whole repository.
